@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(sample.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.screen1{
+    background-size: 300% ;
+    position: absolute;
+       background-repeat: no-repeat;
+       width: 300px;
+    height: 550px;
+    /*position: relative;*/
+    background-color: rgb(10, 10, 238);
+    border-radius: 7%;
+    border: 10px solid white;
+    box-shadow: 0px 0px 50px rgb(241, 237, 239);
+    left: 10%;
+    top: 1.2%;
+    
+
+}
+.screen {
+    padding: 20px;
+}
+
+header {
+    text-align: left;
+}
+
+.user-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 30%;
+    color: white;
+    font-weight: bold;
+    background-color: #6C63FF;
+ } 
+
+.options {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.option {
+    background-color: #F0F4F8;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.transactions {
+    margin: 20px 0;
+}
+
+.transaction {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.transaction img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.home, .menu {
+    background-color: #6C63FF;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.screen2{
+    position: absolute;
+    background-size: 300% ;
+       background-repeat: no-repeat;
+       width: 300px;
+    height: 600px;
+
+    background-color: rgb(10, 10, 238);
+    border-radius: 7%;
+    border: 10px solid white;
+    box-shadow: 0px 0px 50px rgb(248, 246, 247);
+    left: 38%;
+    top: 5%;
+}
+
+
+.screen {
+    padding: 20px;
+    top: -5%;
+}
+
+header {
+    text-align: center;
+}
+
+
+.user-image1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 10px;
+    position: absolute;
+    
+}
+
+.action-buttons1 {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0; 
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.receive send{
+    background-color: #342ea5;
+    
+    
+}
+
+/* .send {
+    background-color: #FF6B6B;
+    color: white;
+} */
+
+.options1 {
+    display: flex;
+    position: absolute;
+    justify-content: space-around;
+    margin: 20px 0;
+    display: block;
+    top: 10%;
+    right:  20px;
+    font-size: small;
+    border-radius: 10px;
+    
+}
+
+.option {
+    background-color: #F0F4F8;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.transactions1 {
+    margin: 20px 0;
+    position: absolute;
+    top: 50%;
+}
+
+.transaction {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.transaction img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    position: absolute;
+    top: 85%;
+}
+.home, .menu {
+    background-color: #6C63FF;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.screen3{
+    position: absolute;
+    background-size: 300% ;
+    background-repeat: no-repeat;
+    width: 300px;
+ height: 600px;
+ /*position: relative;*/
+ background-color: rgb(10, 10, 238);
+ border-radius: 7%;
+ border: 10px solid white;
+ box-shadow: 2px 2px 50px rgb(248, 246, 247);
+ right: 10%;
+ top: 12%;
+ 
+}
+.payee-list {
+    margin-top: 20px;
+}
+
+.payee {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.payee:hover {
+    background-color: #F0F4F8;
+}
+
+.payee img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
